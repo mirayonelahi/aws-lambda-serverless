@@ -20,10 +20,10 @@ frameworkVersion: "3"
 provider:
   name: aws
   runtime: nodejs12.x
+  region: us-east-1
 
-# you can overwrite defaults here
-#  stage: dev
-region: ca-central-1
+plugins:
+  - serverless-offline
 
 functions:
   hello:

@@ -1,0 +1,30 @@
+{
+  "name": "my-lambda-function",
+  "version": "1.0.0",
+  "description": "- Aws lambda is a serverless function aka function as a service. - we will be building from scratch and developing a serverless function. - for basic startup setup refer to this link:   [here](https://blog.tomasztarnowski.com/getting-started-with-aws-lambda-and-serverless-framework)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sls offline start",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirayonelahi/aws-lambda-serverless.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirayonelahi/aws-lambda-serverless/issues"
+  },
+  "homepage": "https://github.com/mirayonelahi/aws-lambda-serverless#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "serverless-http": "^3.0.1",
+    "serverless-offline": "^8.7.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}
